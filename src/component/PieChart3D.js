@@ -51,7 +51,7 @@ function PieChart3D(props) {
         bevelThickness: 0.25, // Adjust this value to control the thickness of the bevel
         bevelSize: Math.max(0.3, gapAngle / 2), // Ensure the bevel size is smaller than half the gap
         bevelOffset: 0,
-        bevelSegments: 500, // Adjust this value to control the smoothness of the bevel
+        bevelSegments: 300, // Adjust this value to control the smoothness of the bevel
       });
 
       // Create an array to store colors for each vertex
